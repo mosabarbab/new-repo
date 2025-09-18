@@ -30,6 +30,9 @@
     text-decoration: none;
 
 }
+.logo{
+    margin-top:5%;
+}
 .hellobar{
     display: flex;
     width: 100vw;
