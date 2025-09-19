@@ -4,16 +4,22 @@
 }
 .navbar{
     display: flex;
-    background-color: rgb(93, 98, 99);
+    background-color: rgb(126, 133, 136);
     justify-content: space-around;
     margin-right: 15%;
     margin-left: 10%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
-.link{
-    padding: 10px;
+.link ul li a{
+    color: aliceblue;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.link ul li a:hover{
+    color: rgb(5, 5, 15); 
 }
 
 .link ul {
@@ -23,23 +29,23 @@
     padding-right: 3px;
 }
 
-.link ul li a{
-    color: aliceblue;
-    font-family:sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    text-decoration: none;
+.link{
+    padding: 10px;
 }
 
 .logo{
     margin-top:3%;
 }
+.logo:hover{
+    color: white;
+}
+
 .hellobar{
     display: flex;
     width: 100vw;
-    height: 75vh;
-    
+    height: 75vh;  
 }
+
 .hello{
     color: white;
     width: 55%;
@@ -57,6 +63,12 @@
     margin-right: 110px;
     margin-top: 10%;
 }
+.img img:hover{
+    box-shadow: 1px 10px 10px 1px rgb(75, 204, 236);
+    width: 320px;
+    height: 320px;
+}
+
 .button button{
     width: 200px;
     font-size: 15px;
@@ -68,6 +80,7 @@
 .button button:hover{
     background-color: green;
     color: aliceblue;
+    box-shadow: 8px 10px 8px rgb(0, 255, 13);    
 }
 .pp{
     color: rgb(255, 255, 255);
@@ -77,11 +90,12 @@
 .bu2 button{
     color: rgb(248, 248, 248);
     background-color: black;
-    border: 2px solid white;
+    border: 1px solid white;
     justify-content: space-around;
     margin-left: 9%;
     margin-bottom:  90px;
-    padding: 10px 15px;    
+    padding: 10px 15px; 
+    border-radius: 10px;   
 }
 .bu2 button:hover{
     background-color: white;
